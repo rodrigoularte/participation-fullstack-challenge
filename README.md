@@ -1,79 +1,92 @@
 <h1 align="center">
-     Case Cubo
+  Case Cubo
 </h1>
 
 <h4 align="left">
-    Projeto da Labenu que se aproxima do mundo real. É uma plataforma de delivery com diversos tipos de restaurantes e comidas.
+  Desafio Full-Stack
 </h4>
 
 ---
 
-##  🕵 Sobre
+##  🕵Sobre
 
-O objetivo é...
+Neste site, você pode criar uma tabela com os seguintes dados: nome, sobrenome e a porcentagem de participação.
+Ao enviar essas informações, a tabela é preenchida e mostra um gráfico que representa o porcentagem total das participações que constam na tabela.
+
+Para o Front-End, usei React, Javascript e Styled-Components. Também criei componentes e usei a biblioteca react-google-charts para o gráfico.
+
+Para o Back-End, usei o MySQL para criar o banco de dados, NodeJS, Typescript, Express, Cors, Knex, DotEnv e UUID.
 
 ---
 
-##  🧑‍💻 Autor
+##  🧑‍💻Autor
 
 - [Rodrigo Goularte](https://github.com/rodrigoularte)
 
 ---
-##  🔠 Conteúdos
+
+##  🔠Conteúdos
 
 <!--ts-->
    * [Sobre](#sobre)
    * [Autor](#autor)
-   * [Status](#status)
+   * [Status](#status-do-projeto)
    * [Objetivo do Projeto](#objetivo-do-projeto)
-   * [Requisitos de Funcionalidade](#requisitos-de-funcionalidade)
-   * [Concepção do Projeto](#concepcao-do-projeto)
+   * [Funcionalidades](#funcionalidades)
+   * [Concepção do Projeto](#concepção-do-projeto)
    * [Link para Acessar](#link-para-acessar)
    * [Rodando o Projeto](#rodando-o-projeto)
 <!--te-->
 
-
 ---
-##  🧭 Status do Projeto
 
-- ⌛ Fazendo
+##  🧭Status do Projeto
+
+- ⌛ Finalizado
 
 ---
 
 ##  🎯Objetivo do Projeto
 
-- Este é um projeto de Front-end , desenvolvido na etapa final do módulo de front-end, no bootcamp da Labenu, cujo o principal objetivo é estudar e praticar: Javascript; React; Aplicações com múltiplas rotas utilizando React Router; Autenticação; Uso de Material UI e Styled-components; GlobalState; Formulários com Validação; Hooks useState, useEffect e useForm; Layout mobile.
-
-
-
-## ☑️Requisitos de Funcionalidade
-
-- [x] Fluxo de Login/Cadastro
-- [x] Busca e Seleção de Restaurantes
-- [x] Cardápio do Restaurante
-- [ ] Carrinho e Finalizar Compra
-- [x] Perfil, Editar Perfil e Histórico de Pedidos
+- Este é um projeto Full-Stack, feito no final do curso Web FullStack da Labenu, cujo principal objetivo é estudar e praticar: React; Javascript; Uso de Styled-components; Typescript; Criação de endpoints; Uso de banco de dados; Consumo de API via REST.
 
 ---
 
+##  ✅Funcionalidades
+
+- [x] Criar e enviar um formulário com as informações de nome, sobrenome e participação
+- [x] Mostrar uma tabela com as informações de nome, sobrenome e participação
+- [x] Mostrar um gráfico com a porcentagem das participações
+- [x] Função de deletar tabela
+
+---
 
 ## 💡Concepção do Projeto
 
-- Recebi um layout pronto e que foi feito pela designer Camila Mizutani
+- Segui o layout proposto do case que está [aqui](https://github.com/cubonetwork/fullstack-challenge/blob/master/layout-onepage.png)
 
 ---
 
 ## 🔗Link para Acessar
 
-- **Link do Surge:** https://case-cubo-rodrigoularte.surge.sh/
+- Pode acessar o app por [aqui](https://case-cubo-rodrigoularte.surge.sh/)
 
 ---
-
 
 ## 🛰Rodando o Projeto
 
 Para Rodar o projeto, siga as seguintes etapas no seu terminal :
 
-- git clone
-- dentro da pasta do projeto: npm install
+- git clone https://github.com/rodrigoularte/participation-fullstack-challenge.git
+
+Para o front:
+
+- cd front-end
+- npm install
 - npm run start
+
+Para o back:
+
+- cd back-end
+- npm install
+- npm run dev
